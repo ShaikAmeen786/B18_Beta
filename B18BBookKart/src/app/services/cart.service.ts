@@ -9,7 +9,7 @@ export class CartService {
 
   public cartItemList: any = []
   public bookList = new BehaviorSubject<any>([])
-  quantity: any;
+  // quantity: any;
   grandTotal !: number;
 
   constructor() { }

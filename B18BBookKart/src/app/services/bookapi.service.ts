@@ -12,7 +12,7 @@ export class BookapiService {
     return this.http.get<any>("https://bookcart.azurewebsites.net/api/Book")
       .pipe(map((res: any) => {
         return res;
-      }))
+      }));
   }
 
 

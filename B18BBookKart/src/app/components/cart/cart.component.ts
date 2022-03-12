@@ -11,7 +11,7 @@ export class CartComponent implements OnInit {
   public books: any = [];
   public grandTotal !: number;
   // public totalSum !: number;
-  // public totalCost !: number;
+ 
    public cartItemList: any;
   constructor(private cartService: CartService) { }
 
